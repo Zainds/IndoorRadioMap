@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="Museum.com">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IndoorRadioMap">
+    <meta-data
+        android:name="com.here.android.maps.appid"
+        android:value="ddY57rDyVNcTs30L8ixz" />
+    <meta-data
+        android:name="com.here.android.maps.apptoken"
+        android:value="CbegpM715UzgcO4ugZDSJg" />
+    <meta-data
+        android:name="com.here.android.maps.license.key"
+        android:value="Dx9kurrfSVXRbqR6OsHOQ1lzh+Pihwpql5q2rtT3HIkCkStbxvsysZwTInG+TtAblvmD6IAepWdsfJvBTASsa4H+CvDzqwxrqbYgoC69WFhBtMANDWvtza09mOxJxAWOi+qsxBaqBIpFpQrcG6ID8bpk6xynngB/wf9c6fRfCovlKI1Q62tzlZ9pVlEaQltOFDzH5NGDacGzV4ZmfXPjjljXfRqVwwMnCMWNkTxJcM5MfphwvnogGJCNvYI+fFNLPI4ssEUKrdrk0vcjiQvZPMW+KTtEVxOaeDxsLjS62DFaDGgBRT+4YoC7FfwnbhwHtUrGLLufsT1DZ3rHxhd+MvQlF7Md1Gzko6EDaAANPK8UWwgt57yHKa7uj0feI9P/6tm9LhlBN9leI46PqyyRTcNUs+jsN58GHb95vG+sAqyOE0/kSq83FMmbKcc2T/ZJj2QSc2WrtW2otWaTPQqg4SeQghXt2CtXE1YuyikbmU9JY3i7JTIbkMG+gG/qHDjjmoP67Ox+NJVu7f09ITk30ukfBTD8upvFhSCUK/b4QYGNlmrxgDgcLnWWHbFrbj4evCKC+IZdVGmluq1vzFOMbpo/JkbzSxd4aTLLqpYrtzTWNiBGX8xQniEpu+2Wx9UBytd3B8jQFFAd0ew13rmeGLlA9NgUAy6o6kzJqSr2+kE=" />
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
